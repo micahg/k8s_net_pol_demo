@@ -1,0 +1,14 @@
+# Default values for demo.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: nginx
+  version: latest
+  pullPolicy: IfNotPresent
+
+namespace: policydemo
+firstAppName: nginx-one
+secondAppName: nginx-two
